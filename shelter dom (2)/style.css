@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.cozy {
+  width: 1140px;
+  margin: 0 auto;
+}
+.cozy .about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.cozy .about .our {
+  font-size: 30px;
+  color: #545454;
+  margin-right: 500px;
+}
+.cozy .about .the {
+  color: #545454;
+  font-size: 15px;
+}
+.cozy .about .the:hover {
+  color: black;
+  box-shadow: 0 3px 0 0 #F1CDB3;
+}
+.cozy a {
+  border: 2px solid #F1CDB3;
+  color: #F1CDB3;
+  padding: 15px 25px;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+.cozy a:hover {
+  background-color: #F1CDB3;
+  color: white;
+}
+.cozy ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F6F6F6;
+}
+.cozy ul li {
+  border: 1px solid white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.cozy ul li p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
